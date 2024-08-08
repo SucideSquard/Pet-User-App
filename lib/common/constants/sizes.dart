@@ -37,6 +37,7 @@ class Sizes {
   // Default spacing between sections
   static const double defaultSpace = 24.0;
   static const double spaceBtwItems = 16.0;
+  static const double spaceBtwXSItems = 4.0;
   static const double spaceBtwSmallItems = 10.0;
   static const double spaceBtwSections = 32.0;
 
@@ -52,6 +53,11 @@ class Sizes {
   static const double productImageSize = 120.0;
   static const double productImageRadius = 16.0;
   static const double productItemHeight = 160.0;
+
+  //Avatar sizes
+  static const double avatarSm = 24.0;
+  static const double avatarMd = 32.0;
+  static const double avatarLg = 48.0;
 
   // Input field
   static const double inputFieldRadius = 12.0;
