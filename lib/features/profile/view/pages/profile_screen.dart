@@ -26,11 +26,14 @@ class ProfileScreen extends ConsumerWidget {
                   const Row(
                     children: [
                       Padding(
-                          padding: EdgeInsets.only(right: 6),
-                          child: Avatar(
-                              pathType: AvatarPathType.network,
-                              path:
-                                  'https://image.petmd.com/files/styles/978x550/public/2023-09/how-smart-are-cats.jpg')),
+                        padding: EdgeInsets.only(right: 6),
+                        child: Avatar(
+                          path:
+                              'https://image.petmd.com/files/styles/978x550/public/2023-09/how-smart-are-cats.jpg',
+                          pathType: AvatarPathType.network,
+                          size: AvatarSizes.md,
+                        ),
+                      ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
